@@ -1,19 +1,18 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "watch": false,
-    "allowJs": true,
-    "lib": ["DOM", "ESNext"],
-    "module": "CommonJS",
-    "outDir": "dist/",
-    "moduleResolution": "Node",
+    "target": "ES2021",
+    "module": "Node16",
+    "lib": ["DOM", "DOM.Iterable", "ES2021"],
+    "moduleResolution": "Node16",
+    "outDir": "dist",
+    "pretty": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "resolveJsonModule": true,
     "noUnusedLocals": false,
     "strict": true,
     "useUnknownInCatchVariables": false,
     "forceConsistentCasingInFileNames": true,
-    "importHelpers":true
+    "skipLibCheck": true,
+    "importHelpers": true
   }
 }

@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+*.txt text
+*.html text
+*.css text
+*.js text
+*.ts text
+*.json text
+*.md text
+*.jaml text
